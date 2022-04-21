@@ -21,6 +21,7 @@ const validarOperadorInformado = operador => {
       return operador;
     default:
       console.log("Operador informado é invalido");
+      return null;
   }
 };
 
